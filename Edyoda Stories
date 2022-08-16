@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <style>
+           .html{
+    margin: 0;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109px;
+
+}
+.navbar{
+    background-color: #fff;
+    Width: 1500px;
+    height:  90px;
+    margin: 0px;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color:#208af3;
+    font-size: 32px;
+    font-weight: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding-left: 25px;
+    float: left;
+    padding-top: 5px;
+}
+.logo1{
+    color:rgba(11, 12, 14, 0.685);
+    font-size: 20px;
+    font-family: Arial;
+    float: left;
+    padding: left 3px;
+}
+            .explore{
+                padding-left: 16px 78px;
+                font-family: Arial, Helvetica, sans-serif;
+                color:rgba(11, 12, 14, 0.685);
+                font-size: 15px;
+                font-family: Arial;
+                float: left;
+                padding-top: 35px;;
+            }
+            .edyoda {
+                text-overflow: clip;
+                text-align: center;
+            }
+            .main_button{
+                width: auto;
+                font-size: 15px;
+                color: #fafdff;
+                padding: 10px;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            .SEC{
+                width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+            }
+            .image{
+                Width:300px;
+Height: 176px;
+
+            }
+            
+       
+        .table
+        {
+            margin: 4px, 0px;
+            height: 400;
+            line-height: 1.43;color: rgba(0,0,0,.6);
+            border: 1px solid rgb(37, 214, 205);
+            border-spacing: 30px;
+            border-radius: 10px;
+            vertical-align:baseline;
+            width: 25px;
+            align-items: center;  
+            background-color: white;
+            font-size: 14px;
+
+        }
+        .filter-catagories{
+            vertical-align: baseline;
+            font-family: Arial;
+        }
+        .center{
+            margin: 4px 0px;
+            align-items: center;
+            margin-left: 200px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .table span{
+            color: rgba(8, 8, 8, 0.7);
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .table img{
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            
+        }
+        </style>
+    </head>
+    <body style="background-color: aliceblue;">
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h1 class="logo">EDYODA <i class="logo1">Stories</i></h1>
+                </div>   
+           <span class="explore"> Explore Categories&nbsp;&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAYAAAD37n+BAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHhJREFUeNpiYGBguAPE/f///2fAh0FqgPguiBEDxC+BeDUQM2NRyAyVewlWCxW0B+L7QHwAiHmRFPNCxUBy9mAxJElVIL4MxBeBWB6KL0LFVOHq0KwXAuJDQHwPikFsIWQ1jFCFcMDIyMgGpFZAuRFA+V/I8gABBgD8EGd4shdx5wAAAABJRU5ErkJggg==">
+        </div>
+        <div class="filter-catagories">
+           
+         <span style="display:flex; align-content:space-around; align-items: center;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAbFBMVEUAAAA1gME1gME1f8A1gME1gMExd7Q0f8AxeLYzfb00fr80f8Aze7oze7o1gMA0fr4zfLwzfb0zfb0yerg0fb00f8AzfLszfLwzfr40f780f8Azfb00f8A0f8AzfLwzfr81gME0fr4zfLs1gMEkRxAZAAAAI3RSTlMAHOP9f/oT1RAO281OROfhFaSUSkCwnpmOcTfFim9YB/AmGRclE4kAAAF9SURBVGje7dfrboJAEAXgA7jLXRAExRu2vP87No1NJjYpexm3SZv5/vgD9QB7mCwQQggh/rI2YtCwUpUxw7mGhTZdWMoWZlHMC4kjmL0Xv3Al8zHhZCQTbOid159/fRwyWIlK+p2rQcPSvnBLoa+mJ1jrG7+bVdRwcLsvHpoeLuaLepxh4nAd9xvc5F1ityx0Juoyw5EeXZely2DAL/JOw8M+NafQ4TKCl7pxeED28FRtrctbw9uk1u4YHdhW8Jd39LislXcCRzZalEt1OVj0YF76MQPTyVjkQYOtprlvmO4cfbysoOnOc6UiG6Y7Q36kIn8v7xWvkh1+mPvqmIPBtIExb0385z5/ups3MM+2b3ixi3nXy7eREAmREAmREAmRkPWQsw4Xkiz05hMqJEkoI0wIZTQVEC7k8VH0CGDztB5pDRKkXfTWHjJkOMGAX+Fdi0CowqMGCROiDpQRKkR1GcLZ0PtbODf1OUquOULKpzQ+VwitjTIIIYQQ/9wHYyfu5wm8dM0AAAAASUVORK5CYII="
+            alt="filter"; height="25px";><p style="font-size:17px;">filter by catagory</p></span>
+
+        </div>
+        <div>
+            <a href="#"><span><button class="SEC">ALL</button></span></a>
+            <a href="#"><span><button class="SEC">ARTIFICIAL INTELLIGENT</button></span></a>
+            <a href="#"><span><button class="SEC">CLOUD COMPUTING</button></span></a>
+            <a href="#"><span><button class="SEC">DEVOPS</button></span></a>
+            <a href="#"><span><button class="SEC">PROGRAMMING LANGUAGES</button></span></a>
+            <a href="#"><span><button class="SEC">MOBILE APPLICATON DEVELOPMENT</button></span></a>
+            <a href="#"><span><button class="SEC">TECHNOLOGY AND TOOLS</button></span></a>
+        </div><br>
+      <table class="center">
+        <tr >
+            
+            
+        <td class="table"><div>
+            <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png">
+     <h2>
+            Introduction to a machine<br> learning online course
+        </h2> <p><A href="https://www.edyoda.com/stories/introduction-to-a-machine-learning-online-course">EDYODA</A>&nbsp;|&nbsp;<span>23 AUG 2019</SPAN></p>
+         We have had an insight into artificial
+            intelligence well one of its subfields
+            is machine learning and this 
+            introduction will help
+            you get a fair idea
+            of what this machine learning...<A href="https://www.edyoda.com/stories/introduction-to-a-machine-learning-online-course">read more...</A>
+        
+        
+        </div></td>
+        <td class="table"><div>
+            <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png">
+            <h2>Lamp stack VS Mean stack</h2>
+            <p><A href="https://www.edyoda.com/stories/lamp-stack-vs-mean-stack-choosing-the-right-platform-for-your-web-application-development">EDYODA</A>&nbsp;|&nbsp;<span>24 AUG 2019</SPAN></p>
+            <P>in today's dynamic world developing
+            a rapid application with a smooth user
+            interface that can adapt to specific..<A href="https://www.edyoda.com/stories/lamp-stack-vs-mean-stack-choosing-the-right-platform-for-your-web-application-development">read more...</A>
+        </P>
+
+        </div></td>
+        <td class="table">
+            <div>
+                <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png">
+                <h2>Impact of cloud computing
+                in various industries</h2>
+                <p><A href="https://www.edyoda.com/stories/impact-of-cloud-computing-in-various-industries">EDYODA</A>&nbsp;|&nbsp;<span>24 AUG 2019</SPAN></p>
+                Cloud computing has been rapidly 
+                gaming pace in the world of
+                information technology it has been 
+                observed that over 90% of global 
+                enterprise are using cloud..<A href="https://www.edyoda.com/stories/impact-of-cloud-computing-in-various-industries">Read more...</A>
+</div>
+        </td>
+        
+        </tr></table>
+    <br>
+        <table class="center">
+            <tr>
+        <td class="table">
+        <div>
+            <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png">
+            <h2>Challenges of machine<br>learning</h2>
+            <p><A href="https://www.edyoda.com/stories/challenges-of-machine-learning-in-big-data-analytics">EDYODA</A>&nbsp;|&nbsp;<span>24 AUG 2019</SPAN></p>
+             We have had an insight into ARTIFICIAL
+                intelligence well one of its subfields
+                is machine learning and this 
+                introduction will help
+                you get a fair idea
+                of what this machine learning..<A href="https://www.edyoda.com/stories/challenges-of-machine-learning-in-big-data-analytics">read more..</A>
+        
+        </div>
+
+        </td>
+        <td class="table">
+            <div>
+                <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png">
+                <h2>Breaking the myths around<br>cyber security</h2>
+                <p><A href="https://www.edyoda.com/stories/breaking-the-myths-around-cybersecurity">EDYODA</A>&nbsp;|&nbsp;<span>26 AUG 2019</SPAN></p>
+                cyber security plays an integral role<br>
+                the process of good business models.<br>
+                but even cyber security programs built<br>
+                with good intentions can fall short in<br>
+                front of advanced cyber attacking..<A href="https://www.edyoda.com/stories/breaking-the-myths-around-cybersecurity">read more...</A>
+            </div>
+    
+            </td>
+            <td class="table">
+                <div>
+                    <img class="image" src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png">
+                    <h2>Importance of data backup&Rcovery </h2>
+                    <p><A href="https://www.edyoda.com/stories/importance-of-data-backup-and-recovery-in-the-it-industry">EDYODA</A> <span>&nbsp;|&nbsp;<span>24 AUG 2019</span></p>
+                    A business must always introspect the
+                    areas where they lack in order to Bring 
+                    about a positive change in the work 
+                    environment one of the main 
+                    precautions or a contigency plan th..<A href="https://www.edyoda.com/stories/importance-of-data-backup-and-recovery-in-the-it-industry">read more..</A>
+
+                </div>
+        
+                </td>
+
+    
+</tr></table>
+
+    </body>
+    <footer style="background-color:#172146;
+    margin: 0px;
+     padding: 30px;
+     font-family: Raleway, sans-serif;
+      color: white;
+      font-size: 20px;
+    ">
+        
+        <div>
+            <span>EdYoda Developer Programs</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="https://www.edyoda.com/">www.edyoda.com</a></span>
+        </div>
+    </footer>
+</html>
