@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunning landing page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+
+    <header class="header">
+        
+            <div><img class="logo"
+                src="https://drive.google.com/uc?export=download&id=1-JUTyCRPlIIqim9yThRurgLRYJ9M928W"
+                alt="logo"
+              ></div>
+
+              <Ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Jobs</a></li>
+                </Ul>
+    
+            <div>
+                <button class="your-account">Your account</button>
+            </div>
+       
+    </header>
+
+    <section>
+        <div class="section">
+            <div class="section-left">
+
+                <div  class="header-text">
+                    <h1>Stunning Workplace<span class="dot">.</span></h1>
+                    <p>With Stunning,remote teams can organize projects,<br> manage shifting priorities, and get work done.</p>
+
+                </div>
+
+               
+                <div class="new-arrow">
+                    <button class="new-account">New account</button>
+                    
+                    <img  class="arrow" src="https://drive.google.com/uc?export=download&id=1eDfqjwo_379IHFs72okEIucZnI6YOE2D" alt="down-arrow">
+                    <img class="arrow" src="https://drive.google.com/uc?export=download&id=1OVgfAYwiNOsPzRyhySAMvs3kzXyleJRb" alt="arrow-up">
+                    
+                   
+        
+                </div>
+                
+                <div class="card">
+                    <div class="card-left">
+                        <i class="fas fa-check-circle"></i>
+                       <span>Dmm design</span>
+
+                    </div>
+
+                    <div class="card-right">
+
+                        <img src="https://drive.google.com/uc?export=download&id=1-AwWeTEHuY9KYhxSemuctt1ncGPdjiOK" alt="user pink" />
+                        <span class="dec">20 Dec</span>
+                        <div class="color" style="background-color:  #fed7da"></div>
+
+
+                    </div>
+                   
+                </div>
+        
+                <div class="card">
+                    <div class="card-left">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Blurr animation</span>
+
+                    </div>
+
+                    <div class="card-right">
+                        <img src="https://drive.google.com/uc?export=download&id=1-BQyOmt21koUQ2V7YB6Uag9eksJiQIaG" alt="user pink" />
+                    <span class="dec">22 Dec</span>
+                    <div class="color" style="background-color:  #fd6534"></div>
+
+                    </div>
+                    
+                </div>
+        
+                <div class="card">
+                    <div class="card-left">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Illustration</span>
+                    </div>
+
+                    <div class="card-right">
+                        <img src="https://drive.google.com/uc?export=download&id=1-HPUTSR2HkUGHuYLrmDVIg9XtV1r92kJ" alt="user pink" />
+                        <span class="dec">26 Dec</span>
+                        <div class="color" style="background-color:  #9ed095">
+
+                    </div>
+                   
+                   </div>
+                </div>
+        
+        
+                <div class="card">
+                    <div class="card-left">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Refunds</span>
+
+                    </div>
+                    <div class="card-right">
+                        <img src="https://drive.google.com/uc?export=download&id=1-7QrTVo9Hm0474G_EPgJ12efrmULuroM" alt="user pink" />
+                        <span class="dec">28 Dec</span>
+                        <div class="color" style="background-color:  #FFE4A0">
+
+
+                    </div>
+                    
+                   </div>
+                </div>
+        
+    
+            </div>
+           
+    
+            <div class="right-img-section">
+                <img src="https://drive.google.com/uc?export=download&id=1-OkgVN5W9Ue_bBu199wSDQxoTNHrLaN7" alt="main-img" />
+            </div>
+    
+        </div>
+        
+    </section>
+
+    
+    
+    
+</body>
+</html>
